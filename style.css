@@ -1,0 +1,24 @@
+.featured-posts-widget img {
+	border: 0px;
+}
+ .featured-posts-widget {
+ 	box-shadow: 1px 1px 8px rgb(240, 240, 240);
+ 	padding: 20px;
+ 	width: 85%;
+ }
+
+ .featured-posts-widget h1 {
+  	text-align: center;
+  }
+
+ .featured-posts-widget:hover {
+   	background-color: #e50000;
+ }
+
+ .featured-posts-widget:hover h1 {
+   	color: #ffffff;
+ }
+
+ .widget_feature_posts_by_id_widget {
+ 	list-style: none;
+ }
