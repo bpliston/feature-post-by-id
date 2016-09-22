@@ -20,9 +20,16 @@ are the post's ID. In this case, the post's ID is **6613**. Copy the post ID and
 
 ## History
 
+**0.1.1**
+* Fixed css for mobile.
+* Credited tutorial in README.md
+* Fixed ugly clump of PHP echoes
+
 **0.1**
-First version committed!
+* First version committed!
 
 ## License
 
 [CC by 2.0](https://creativecommons.org/licenses/by/2.0/)
+
+Thanks to WPExplorer.com for [the tutorial](http://www.wpexplorer.com/create-widget-plugin-wordpress/)

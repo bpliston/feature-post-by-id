@@ -55,27 +55,12 @@ class Feature_Posts_by_ID_Widget extends WP_Widget {
         $post_id = $instance['postid'];
         $queried_post = get_post($post_id);
         $title = $queried_post->post_title;
-        echo $args['before_widget']; 
-        echo '<h2>';
-        echo $instance['idtitle'];
-        echo '</h2>';
-        echo '<a href="';
-        echo get_post_permalink($post_id);
-        echo '">';
-        echo '<div class="featured-posts-widget">';
+        echo $args['before_widget'] . '<h2>' . $instance['idtitle'] . '</h2><a href="' . get_post_permalink($post_id) . '"><div class="featured-posts-widget">';
         if (has_post_thumbnail( $post_id) ) {
             $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post_id ), 'single-post-thumbnail' );
-             echo '<img src="';
-             echo $image[0];
-             echo '"/>';
+             echo '<img src="'. $image[0] . '"/>';
         }
-        echo '<h1>';
-        echo $title;
-        echo '</h1>';
-        echo '</div>';
-        echo '</a>';
-
-        echo $args['after_widget'];
+        echo '<h1>' . $title . '</h1></div></a>' . $args['after_widget'];
     }
 
     function update($new_instance, $old_instance) {

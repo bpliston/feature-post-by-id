@@ -1,24 +1,45 @@
 .featured-posts-widget img {
 	border: 0px;
 }
- .featured-posts-widget {
+
+.featured-posts-widget {
  	box-shadow: 1px 1px 8px rgb(240, 240, 240);
  	padding: 20px;
- 	width: 85%;
- }
+ 	overflow:visible;
+}
 
- .featured-posts-widget h1 {
+.featured-posts-widget h1 {
   	text-align: center;
-  }
+}
 
- .featured-posts-widget:hover {
+.featured-posts-widget:hover {
    	background-color: #e50000;
- }
+}
 
- .featured-posts-widget:hover h1 {
+.featured-posts-widget:hover h1 {
    	color: #ffffff;
- }
+}
 
- .widget_feature_posts_by_id_widget {
+.widget_feature_posts_by_id_widget {
  	list-style: none;
- }
+}
+
+/* Fix overflow on home page */
+
+.home .sidebar {
+	overflow: visible;
+}
+
+.home #main {
+	overflow: visible;
+}
+
+.home #main .wrap {
+	overflow: visible;
+	border: 0px;
+}
+
+.home #slider-content {
+	border-bottom: 1px solid #d3d3d3;
+	border-radius: 0 0 0 0;
+}
