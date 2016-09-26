@@ -2,29 +2,35 @@
 	border: 0px;
 }
 
+.widget_feature_posts_by_id_widget {
+ 	list-style: none;
+}
+
 .featured-posts-widget {
  	box-shadow: 1px 1px 8px rgb(240, 240, 240);
  	padding: 20px;
- 	overflow:visible;
-}
-
-.featured-posts-widget h1 {
-  	text-align: center;
+ 	overflow: visible;
+ 	margin: 0 0 2.5em 0;
 }
 
 .featured-posts-widget:hover {
    	background-color: #e50000;
 }
 
+.featured-posts-widget h1 {
+  	text-align: center;
+}
+
 .featured-posts-widget:hover h1 {
    	color: #ffffff;
 }
 
-.widget_feature_posts_by_id_widget {
- 	list-style: none;
-}
+.widget_feature_posts_by_id_widget h2 {
+ 	bottom: -3px;
+	position: relative;
+ }
 
-/* Fix overflow on home page */
+/* Fix overflow on front page */
 
 .home .sidebar {
 	overflow: visible;

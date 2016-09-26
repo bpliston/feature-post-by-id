@@ -1,13 +1,13 @@
 <?php
 /*
-* Plugin Name: Viewpoint Mag display posts in sidebar
-* Description: Widget for displaying posts in VP sidebar
-* Version: 0.1
+* Plugin Name: Feature Post by ID
+* Description: Widget for displaying posts in viewpointmag.com's frontpage sidebar
+* Version: 0.1.2
 * Author: Brian Liston
-* Author URI: brianliston.com
+* Author URI: https://github.com/bpliston/feature-post-by-id
 */
 
-// Register style sheet.
+// Register stylesheet
 add_action( 'wp_enqueue_scripts', 'register_plugin_styles' );
 
 function register_plugin_styles() {
